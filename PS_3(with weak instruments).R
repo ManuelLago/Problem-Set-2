@@ -34,7 +34,6 @@ for (i in 1:length (n)) {
   }
 }
 
-graphics.off()
 par(mar=c(3,1,1,3), mfrow=c(2,2))
 
 OLShist<-hist (betaOLS [1:1000, 1], breaks ="Scott", prob = T, xlim = c(mean(betaOLS [1:1000, 1])-1.5, 
